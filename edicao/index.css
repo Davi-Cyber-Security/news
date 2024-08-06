@@ -74,6 +74,7 @@ main{
     position: relative;
     border: 1px solid rgba(0, 0, 0, 0.315);
     max-width: 400px;
+    height: 400px;
     padding: 8px;
     text-align: justify;
     border-radius: 15px;
