@@ -64,6 +64,8 @@ main{
     padding-bottom: 20px;
     text-align: center;
     text-decoration: underline;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 .flws{
     margin: 0 auto;
@@ -86,6 +88,8 @@ main{
 .title-card{
     text-align: center;
     padding: 5px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
 }
 .papel-news-card{
     display: flex;
