@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.papel-news-loding{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    text-decoration: underline;
+}
+/* the end */
+/* the end */
+/* the end */
+/* the end */
+
+main{
+    padding-top: 15px;
+}
+.ons{
+    margin: 0 auto;
+    max-width: 1024px;
+    position: relative;
+    padding: 8px;
+}
+
+.card{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    max-width: 1024px;
+    padding: 8px;
+    text-align: justify;
+    border-radius: 15px;
+}
+/* .ong-topic{
+    width: 100%;
+    position: absolute;
+} */
+.img-card{
+    width: 100%;
+}
+.topic{
+    position: absolute;
+    right: 8px;
+    color: #028299a4;
+}
+.titulo{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.paragraf{
+    padding: 4px;
+    line-height: 25px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+li{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    line-height: 35px;
+}
+.list-info{
+    line-height: 25px;
+}
+
+
+/*  */
+.fims{
+    text-align: center;
+    padding-bottom: 25px
+}
+/*  */
+
+footer{
+    background-color: rgba(170, 169, 169, 0.699);
+    text-align: center;
+}
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    text-align: center;
+}
+.anuncie-rodape{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.eith{
+    padding-bottom: 20px;
+}
+.link-anuncie{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+}
+.link-anuncie:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+.logo-papel-newss{
+    max-width: 80px;
+    align-items: center;
+}
+.footer-rodape{
+    padding: 5px;
+}
+.papelnewss{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.destaquesw{
+    background: linear-gradient(to right,  rgb(184, 184, 184) 50%,rgb(216, 216, 0) 50%);
+    color: rgb(0, 0, 0);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: background-position 0.9s ease, color 0.9s ease;
+}
+.destaquesw:hover{
+    background-position: right bottom;
+    color: black !important;
+}
+.list-linese{
+    border-left: 1px solid rgb(90, 90, 90);
+}
